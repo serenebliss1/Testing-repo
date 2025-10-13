@@ -9,4 +9,7 @@ int[] numbers2 = [1, 2, 3, 4, 5];
 
 Console.WriteLine(numbers2[0]);
  
- 
+ for (int i =0; i < numbers.Length; i++)
+ {
+    Console.WriteLine(numbers[i]);
+ }

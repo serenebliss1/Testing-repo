@@ -53,5 +53,27 @@ k <- 2 + 5i
 g <- as.integer(k)
 
 print(k)
+print(g)
 
- 
+
+summary("students_scores.csv")
+
+# now lets do some simple math
+
+10 + 5
+
+10 - 5
+
+max(5, 10, 15, 20)
+min(5, 10, 15, 20)
+
+sqrt(16)
+
+abs(-50)
+
+ceiling(5.7)
+floor(5.3)
+
+#Stringsssss
+
+"Hello, World!"

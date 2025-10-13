@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use std::io;
 //reminds me of using namespaces in C#
 
 fn main() {
