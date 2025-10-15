@@ -77,3 +77,18 @@ floor(5.3)
 #Stringsssss
 
 "Hello, World!"
+
+str <- "Hello, World!"
+print(str)
+
+
+nchar(str)
+
+is_present <- grepl("H", str)
+#grep?!?!?! What are you doing here?
+# The grepl function is used to search for patterns in strings. 
+# It returns TRUE if the pattern is found and FALSE otherwise.
+
+if (is_present == TRUE) {
+  print("The letter 'H' is present in the string.")
+}
