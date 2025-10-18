@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Threading;
 
-class Program
+class Program1
 {
    static void Main()
    {
@@ -111,5 +111,15 @@ class TestingThreads
          Interlocked.Increment(ref counter);
       }
    }
+
+   
 }
 
+class random
+{
+   public static int GenerateRandomNumber(int min, int max)
+   {
+      Random rand = new Random();
+      return rand.Next(min, max);
+   }
+}
