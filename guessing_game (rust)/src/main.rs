@@ -1,4 +1,5 @@
 use std::io;
+use rand;
 
 fn main()
 {

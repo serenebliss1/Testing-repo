@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Diagnostics;
+using System.Dynamic;
+using System.Security.Cryptography.X509Certificates;
+using System.Text.RegularExpressions;
 using System.Threading;
 
 class Program1
@@ -121,5 +125,10 @@ class random
    {
       Random rand = new Random();
       return rand.Next(min, max);
+      
    }
+
+   
 }
+
+//checks which case is valid

@@ -1,3 +1,8 @@
 {
-    "dotnet.defaultSolution": "csharp_practice.sln"
+    "dotnet.defaultSolution": "csharp_practice.sln",
+    "cSpell.words": [
+        "bruh",
+        "Konnichiwa",
+        "Semire"
+    ]
 }
