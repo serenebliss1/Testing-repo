@@ -7,13 +7,21 @@ fn main()
 
     println!("Please input your guess.");
 
-    /*
+    
     let mut guess = String::new();
     io::stdin().read_line(&mut guess)
         .expect("Failed to read line");
-
-    println!("You guessed {}", guess);
-    */
+    let mut value:String = guess.trim().parse().to_lowercase().expect("Error");
+    
+    
+    if value == value
+    {
+        println!("You guessed {}", guess);
+    }
+    else
+    {
+        println!("Try again");
+    }
 
     
 }
