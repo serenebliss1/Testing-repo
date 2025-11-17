@@ -44,7 +44,7 @@ while (true)
         double real_part = (-b_input / (2.0 * a_input));
         double imaginary_part = (Math.Sqrt(-discriminant) / (2.0 * a_input));
 
-        System.Console.WriteLine($"{real_part:F2} + {imaginary_part:F2}i and {real_part:F2} - {imaginary_part:F2} ");
+        System.Console.WriteLine($"{real_part:F2} + {imaginary_part:F2}i and {real_part:F2} - {imaginary_part:F2}i ");
 
         //allow the user to re-run the code
         System.Console.WriteLine("Do you want to find the roots of another equation");
