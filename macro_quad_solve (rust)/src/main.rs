@@ -21,8 +21,6 @@ pub fn solve_quadratics()
         println!("There's obviously no way a is 0.\nTry again!");
         solve_quadratics();
     }
-    println!("By the way, if you typed in an incorrect value, just type (0) and press enter!");
-
     println!("Enter coefficient b:");
     io::stdin().read_line(&mut b_input).expect("Failed to read line");
     let b: f64 = b_input.trim().parse().expect("Please type a valid number");
